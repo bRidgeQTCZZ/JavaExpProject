@@ -1,8 +1,8 @@
-/* 实验二 第1题 */
+// 实验二 第1题
 
 // 实验代码：
 public class SoftwareNumber {
-    private int serialNumber;
+    final private int serialNumber;
     public static int counter = 0;
 
     public SoftwareNumber() {
@@ -42,5 +42,6 @@ s5_number = 5
 /* 结果分析：
 第5个对象实例生成之后静态变量counter的值是5。
 因为counter是类变量成员，多个对象示例共享一个内存区，共享同一个值。
-每次执行counter++语句，都会使
+每次执行counter++语句，都会使同一个变量自增，形成累计的效果。
+生成5个实例的过程中，执行了5次counter++语句，使得其值增至5。
  */

@@ -1,3 +1,6 @@
+// 实验二 第3题
+
+// 实验代码：
 import java.util.Scanner;
 
 public class IntegerSequence implements IntegerSequenceProcessing{
@@ -64,3 +67,26 @@ public class IntegerSequence implements IntegerSequenceProcessing{
         System.out.println("这" + trueOrFalse(Sequence.isFibonacciSequence(Sequence.getNums())) + "一个斐波那契数列。");
     }
 }
+
+/* 运行结果：
+// 1
+请输入数列长度：5
+请输入一个长度为5的数列：1 2 3 4 5
+这是一个等差数列。
+这不是一个等比数列。
+这不是一个斐波那契数列。
+
+// 2
+请输入数列长度：10
+请输入一个长度为10的数列：1 1 1 1 1 1 1 1 1 1
+这是一个等差数列。
+这是一个等比数列。
+这不是一个斐波那契数列。
+
+// 3
+请输入数列长度：6
+请输入一个长度为6的数列：1 1 2 3 5 8
+这不是一个等差数列。
+这不是一个等比数列。
+这是一个斐波那契数列。
+ */

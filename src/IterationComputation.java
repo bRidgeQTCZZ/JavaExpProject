@@ -1,3 +1,6 @@
+// 实验二 第4题
+
+// 实验代码：
 import java.util.Scanner;
 
 public class IterationComputation {
@@ -16,3 +19,9 @@ public class IterationComputation {
         System.out.println(ic.iterationMethodOfNewton(a, a / 2, 0.0000001f));
     }
 }
+
+/* 运行结果：
+10
+10
+1.1
+ */
