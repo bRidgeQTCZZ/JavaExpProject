@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa34850c-ca0e-4297-8c95-06de09a8f135" name="更改" comment="修改根目录README内容">
-      <change afterPath="$PROJECT_DIR$/res/icon_gps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/icon_paper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/icon_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MouseEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyColorChooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyFileChooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MySlider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TextIO.java" afterDir="false" />
+    <list default="true" id="aa34850c-ca0e-4297-8c95-06de09a8f135" name="更改" comment="实验三">
+      <change afterPath="$PROJECT_DIR$/src/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
     </list>
@@ -80,7 +73,7 @@
       <updated>1686538242269</updated>
       <workItem from="1686538243357" duration="11862000" />
       <workItem from="1686752051281" duration="1195000" />
-      <workItem from="1686797969682" duration="1917000" />
+      <workItem from="1686797969682" duration="4878000" />
     </task>
     <task id="LOCAL-00001" summary="实验一 实验二">
       <created>1686624763524</created>
@@ -117,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686625097243</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="实验三">
+      <created>1686809733020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686809733020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +138,7 @@
     <MESSAGE value="实验一 实验二" />
     <MESSAGE value="在src目录添加README" />
     <MESSAGE value="修改根目录README内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改根目录README内容" />
+    <MESSAGE value="实验三" />
+    <option name="LAST_COMMIT_MESSAGE" value="实验三" />
   </component>
 </project>
